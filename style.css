@@ -34,6 +34,7 @@
     align-items: center;
     flex-direction: row;
     padding: 50px;
+    background-image: url("bg11.png");
 }
 .super{
     padding: 10px;
