@@ -24,6 +24,7 @@
     align-items: center;
     flex-direction: row;
     padding-left: 50px;
+    flex-wrap: nowrap;
 }
 .logo{
     padding-left: 5px;
