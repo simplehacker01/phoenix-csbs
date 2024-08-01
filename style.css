@@ -33,10 +33,10 @@
     display: flex;
     align-items: center;
     flex-direction: row;
-    padding: 60px;
+    padding: 50px;
 }
 .super{
-    padding: 160px;
+    padding: 10px;
 }
 .intro{
     border-radius: 6px;
