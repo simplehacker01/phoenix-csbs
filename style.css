@@ -3,8 +3,8 @@
     align-items: center;
     flex-direction: row;
     background-color: black;
-    padding-top: 30px;
-    padding-left: 450px;
+    padding-top: 5px;
+    padding-left: 45px;
     gap: 60px;
 
 }
@@ -16,5 +16,32 @@
     padding-top: 20px;
     gap: 60px;
     font-weight: 700;
+    margin-right: 50px;
 
 }
+.navigators{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    padding-left: 50px;
+}
+.logo{
+    padding-left: 5px;
+}
+.main{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    padding: 60px;
+}
+.super{
+    padding: 160px;
+}
+.intro{
+    border-radius: 6px;
+    background-color: rgb(24, 36, 39);
+    padding: 25px;
+    color:aliceblue;
+    font-weight: 700;
+}
+
