@@ -1,0 +1,20 @@
+.nav{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    background-color: black;
+    padding-top: 30px;
+    padding-left: 450px;
+    gap: 60px;
+
+}
+.nav a{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    color: rgb(237, 253, 255);
+    padding-top: 20px;
+    gap: 60px;
+    font-weight: 700;
+
+}
