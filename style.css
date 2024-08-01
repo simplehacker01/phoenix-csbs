@@ -41,7 +41,7 @@
 }
 .intro{
     border-radius: 6px;
-    background-color: rgb(24, 36, 39);
+    background-color: rgb(24, 36, 39,0.4);
     padding: 25px;
     color:aliceblue;
     font-weight: 700;
