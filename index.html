@@ -4,6 +4,7 @@
         <title>phoenix-csbs</title>
         <link rel="stylesheet" href="style.css">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="script.js"></script>
     </head>
     <body>
         <div class="nav">
@@ -11,20 +12,37 @@
                 <img src="logo.png" height="70" width="130">
             </div>
                 <div class="navigators">
-                <a href="#home">Home</a>
-                <a href="#home">Gallery</a>
-                <a href="#home">About Us</a>
-                <a href="#home">Contact Us</a>
+                    <a href="#home">Home</a>
+                    <a href="#home">Gallery</a>
+                    <a href="#home">About Us</a>
+                    <a href="#home">Contact Us</a>
+                    <button class="login">Log In</button>
             </div>
         </div>
+        
         <div class="main">
-            <div class="super">
-                <img src="pic1.png" height="500" width="800">
-            </div>
-            <div class="intro">
-                Welcome to the heart of CSBS's vibrant spirit! Our Cultural Committee is more than just a group of event planners; we're a collective of passionate individuals who believe that culture is the soul of any community.
-                <p>
-                Our mission is simple: to create a platform where every CSBS student can express their talents, make lifelong friends, and cherish unforgettable memories. Join us as we embark on this exciting journey of fun, friendship, and unforgettable moments!</p>
+            <div class="glow"><h2>WELCOME TO PHOENIX</h2></div>
+            <div class="sub">
+                
+                <div class="super">
+                    <div class="ring-container">
+                        <img src="pic1.png" class="frame" height="500" width="800">
+                        <img src="" class="center-image" id="center-image" height="430" width="730">
+                        <script type="text/javascript">
+                            let image = document.getElementById('center-image');
+                            let images = ['image1.jpg', 'image2.jpg', 'image4.jpg']
+                            setInterval(function(){
+                                let random = Math.floor(Math.random() * 4);
+                                image.src=images[random];
+                            }, 800);
+                        </script>
+                    </div>
+                </div>
+                <div class="intro">
+                    Welcome to the heart of CSBS's vibrant spirit! Our Cultural Committee is more than just a group of event planners; we're a collective of passionate individuals who believe that culture is the soul of any community.
+                 <p>
+                    Our mission is simple: to create a platform where every CSBS student can express their talents, make lifelong friends, and cherish unforgettable memories. Join us as we embark on this exciting journey of fun, friendship, and unforgettable moments!</p>
+                </div>
             </div>
         </div>
     </body>
